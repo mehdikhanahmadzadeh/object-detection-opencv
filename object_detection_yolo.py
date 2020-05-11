@@ -148,7 +148,6 @@ while cv.waitKey(1) < 0:
     # Sets the input to the network
     net.setInput(blob)
 
-
     # Runs the forward pass to get output of the output layers
     outs = net.forward(getOutputsNames(net))
 
